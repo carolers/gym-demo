@@ -1,0 +1,128 @@
+body {
+    background-color: #FFE69A;
+    color: brown;
+    font-family: 標楷體, 'Courier New', Courier, monospace;
+}
+
+div.title {
+    color: white;
+    font-size: 5em;
+    background-color: #77693d;
+    border-radius: 16px;
+    height: 64px;
+    line-height: 64px;
+    margin: 16px;
+    padding: 12px;
+    text-align: center;
+
+
+}
+
+div.subtitle {
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+    background-color: #77693d;
+    border-radius: 16px;
+    height: 64px;
+    line-height: 64px;
+    margin: 16px;
+    padding: 16px;
+    text-align: left;
+
+}
+
+#container {
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.text-1 {
+    border: 2px black dotted;
+    margin-bottom: 12px;
+    padding: 6px;
+    font-size: 32px;
+    background-color: rgb(246, 237, 226);
+}
+
+.text-2 {
+    font-size: 2rem;
+    background-color: aqua;
+    color: rgb(46, 131, 131);
+}
+
+.text-3 {
+    text-align: left;
+}
+
+.good-link a {
+    text-decoration: none;
+
+}
+
+.good-link a:link {
+    color: rgb(157, 20, 157);
+}
+
+.good-link ul {
+    text-align: left;
+    list-style-type: circle;
+}
+
+.good-link a:hover {
+    color: palevioletred;
+}
+
+#image img {
+    width: 30%;
+    background-color: brown;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+#image {
+    background-color: darkorange;
+    padding: 3px;
+    text-align: center;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+    height: 250px;
+    margin-top: 12px;
+}
+th{
+    background-color: rgb(76, 76, 210);
+    color: honeydew;
+    font-size: 24px;
+}
+tr{
+    background-color: bisque;
+    color: saddlebrown;
+    font-size: 20px;
+}
+td:first-child{
+    background-color: chartreuse;
+    font-size: 20px;
+    font-weight: 500;
+}
+form{
+    background-color: hotpink;
+    padding: 24px 0px;
+   
+    border-radius: 12px;
+    color: whitesmoke;
+}
+label,input,textarea,button{
+    font-size: 20px;
+}
+input[type='number']{
+    margin-top: 6px;
+}
+.my-button{
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    border-radius: 3px;
+}

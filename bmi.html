@@ -5,9 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        form{
+           background-image: url(./img/pic-2.jpg);
+        }
+        .my-button{
+            margin-top: 8px;
+        }
+        
+    </style>
+
+
 </head>
 <body>
-    <h2>計算BMI</h2>
+    <div id="container">
+    <div class="subtitle">計算BMI</div>
     <form action="">
         <label for="name">姓名</label>
         <input type="text" name="name" id="name" required>
@@ -19,11 +32,12 @@
         <input type="number" step=0.1 name="weight" id="weight" required>
         <br>
         <p>
-            <button type="submit">計算BMI</button>
+            <button type="submit" class="my-button">計算BMI</button>
         </p>
 
 
     </form>
     <a href="./index.html">返回首頁</a>
+    </div>
 </body>
 </html>
