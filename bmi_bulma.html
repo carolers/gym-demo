@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        input{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero is-link is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title has-text-warning has-text-centered">
+                    BMI計算機
+                </p>
+                
+            
+            <div class="columns is-centered">
+                <div class="column is-6 box has-text-centered">
+                    <form action="">
+                        <label for="name" class="label">姓名</label>
+                        <input type="text" class="input" name="name" id="name">
+                        <br>
+                        <label for="height" class="label">身高</label>
+                        <input type="number" step=0.1 class="input" name="height" id="height" required>
+                        <br>
+                        <label for="weight" class="label">體重</label>
+                        <input type="number" step=0.1 class="input" name="weight" id="weight" required>
+                        <br>
+                        <div><button type="button" class="button is-primary mt-3" id="calc" class="my-button" onclick="calcBMI()">計算BMI</button>
+                            <button type="reset" class=" button is-danger mt-3 my-button">清除</button>
+                        </div>
+                    
+                        
+                    
+                    </form>
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="columns mt-2 is-centered">
+                <div class="column is-6 box has-text-centered has-background-primary ">
+                    <div id="result">BMI:
+                        <span class="bmi"></span>
+                        <span class="comment"></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+        <div class="has-text-centered">
+        <a href="./index.html">返回首頁</a>
+        </div>
+    </section>
+    
+<script src="./js/bmi.js"></script>
+
+
+
+
+
+
+
+    
+    
+</body>
+</html>
